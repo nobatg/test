@@ -23,4 +23,4 @@ def get_members(guild_id, channel_id):
 	bot.gateway.resetSession() #saves 10 seconds when gateway is run again
 	return bot.gateway.session.guild(guild_id).members
 
-members = get_members('322850917248663552', '754536220826009670') #yes, the channel_id input is required
+members = get_members('1343375995364708453') #yes, the channel_id input is required
